@@ -6,7 +6,7 @@ app.listen(port, () => console.log(`Server up and running on port ${port} !`));
 
 app.get('/', (req, res)=>{
     res.send('hello world')
-});
+})
 
 app.get('/HydraData', (req, res)=>{
     console.log('get hydra data');
