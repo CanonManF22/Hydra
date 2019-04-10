@@ -10,7 +10,13 @@ app.get('/', (req, res)=>{
 
 app.get('/HydraData', (req, res)=>{
     console.log('get hydra data');
-    res.send('get hydra data');
+    res.send({
+        light: true,
+        misting: true,
+        pH: 7,
+        temp: 69.69,
+        waterLevel: "fair"
+    });
 });
 
 app.get('/togglePump', (req, res)=>{
