@@ -1,0 +1,23 @@
+{
+  "name": "hydra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CanonManF22/Hydra.git"
+  },
+  "author": "Avi Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CanonManF22/Hydra/issues"
+  },
+  "homepage": "https://github.com/CanonManF22/Hydra#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "save": "^2.3.3"
+  }
+}
