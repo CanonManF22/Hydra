@@ -18,6 +18,11 @@
   "homepage": "https://github.com/CanonManF22/Hydra#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "firebase": "^5.9.3",
+    "firebase-admin": "^7.2.0",
     "save": "^2.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
   }
 }
