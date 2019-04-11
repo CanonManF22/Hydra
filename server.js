@@ -17,7 +17,7 @@ var config = {
 var ref = firebase.app().database().ref();
 ref.once('value', ()=> console.log('value'))
 .then(function (snap) {
-console.log(snap.val(), snap.val());
+console.log(snap.val());
 });
 
 const port = process.env.PORT || 8080;
